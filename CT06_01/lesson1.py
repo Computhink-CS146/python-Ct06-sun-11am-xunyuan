@@ -119,3 +119,14 @@ print("2027")
 
 
 print(0)
+## Task 9: Find the errors
+# Task: Find the errors. 
+
+
+print("Hello and how are you?")
+
+print("What is wrong with this")
+
+print("Why is this not working?")
+
+print("Why is this not working?")
