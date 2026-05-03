@@ -174,7 +174,27 @@ else:
 # 2. Add an ability for users to skip by saying "skip"
 # 3. Disqualify user when they have gotten the wrong answer or
 #    skipped more than 5 times.
+import random
 
+num1 = random.randint(1, 10)
+num2 = random.randint(1, 10)
+while   True:
+    reply = int(input("what is " + str(num1) + "+" + str(num2) + "?"))
+
+    correct = num1 + num2
+    if reply == correct:
+        print("correct")
+        break
+
+    else:
+        print("try agn")
+        num1 = random.randint(1, 10)
+        num2 = random.randint(1, 10)
+
+
+
+
+    
 # ----------------------------------------------------------------
 
 # # Task 6: Dice Roll till 4
